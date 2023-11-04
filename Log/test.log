@@ -3,3 +3,36 @@
 2023-10-30 14:01:35,959 logger INFO Embedding created successfully
 2023-10-30 14:01:35,959 logger INFO Generated 21 vectors
 2023-10-30 14:01:35,994 logger INFO Vectors have been written to ../Database/db.csv.
+2023-11-04 10:21:23,929 logger INFO Read 21 lines from ../Sample/sample2.txt
+2023-11-04 10:21:43,651 logger INFO Read 21 lines from ../Sample/sample2.txt
+2023-11-04 10:22:05,573 logger INFO Read 21 lines from ../Sample/sample2.txt
+2023-11-04 10:22:14,168 logger INFO Read 21 lines from ../Sample/sample2.txt
+2023-11-04 10:22:31,251 logger INFO Read 21 lines from ../Sample/sample2.txt
+2023-11-04 10:22:44,275 logger INFO Read 21 lines from ../Sample/sample2.txt
+2023-11-04 10:30:53,135 logger INFO Read 21 lines from ../Sample/sample.txt
+2023-11-04 10:31:44,257 logger INFO Read 21 lines from ../Sample/sample.txt
+2023-11-04 10:32:18,177 logger INFO Read 21 lines from ../Sample/sample.txt
+2023-11-04 10:32:28,113 logger INFO Read 21 lines from ../Sample/sample.txt
+2023-11-04 10:33:28,833 logger INFO Read 21 lines from ../Sample/sample.txt
+2023-11-04 10:38:53,159 logger INFO OpenAI API Key: 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
+2023-11-04 10:38:53,159 logger INFO Read 21 lines from ../Sample/sample.txt
+2023-11-04 10:38:53,159 logger WARNING Error: module 'openai' has no attribute 'Embedding'
+2023-11-04 10:40:43,663 logger INFO OpenAI API Key: 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
+2023-11-04 10:40:43,663 logger INFO Read 21 lines from ../Sample/sample.txt
+2023-11-04 10:40:43,664 logger WARNING Error: module 'openai' has no attribute 'Embedding'
+2023-11-04 10:41:26,075 logger INFO OpenAI API Key: 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
+2023-11-04 10:41:26,076 logger INFO Read 21 lines from ../Sample/sample.txt
+2023-11-04 10:41:26,076 logger WARNING Error: module 'openai' has no attribute 'Embedding'
+2023-11-04 10:41:48,044 logger INFO OpenAI API Key: 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
+2023-11-04 10:41:48,044 logger INFO Read 21 lines from ../Sample/sample.txt
+2023-11-04 10:42:21,396 logger INFO OpenAI API Key: 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
+2023-11-04 10:42:21,396 logger INFO Read 21 lines from ../Sample/sample.txt
+2023-11-04 10:42:21,396 logger WARNING Error: module 'openai' has no attribute 'Embedding'
+2023-11-04 10:43:56,858 logger INFO OpenAI API Key: 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
+2023-11-04 10:43:56,858 logger INFO Read 21 lines from ../Sample/sample.txt
+2023-11-04 10:43:58,380 logger WARNING Error: Incorrect API key provided: sk-TwZrS***************************************m3fN. You can find your API key at https://platform.openai.com/account/api-keys.
+2023-11-04 10:46:40,881 logger INFO Read 21 lines from ../Sample/sample.txt
+2023-11-04 10:46:45,381 logger INFO Vectors have been written to ../Database/m3e.csv
+2023-11-04 10:47:52,197 logger INFO OpenAI API Key: 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
+2023-11-04 10:47:52,197 logger INFO Read 21 lines from ../Sample/sample.txt
+2023-11-04 10:47:53,610 logger WARNING Error: Incorrect API key provided: sk-TwZrS***************************************m3fN. You can find your API key at https://platform.openai.com/account/api-keys.

@@ -5,7 +5,7 @@ import os
 import openai
 
 sample_file = "../Sample/sample.txt"
-csv_file = "../Database/db.csv"
+csv_file = "../Database/ada002.csv"
 
 def get_file_content(filename) -> List[str]:
     with open(file=filename, mode="r") as f:
@@ -34,7 +34,7 @@ def create_vector(lines: List[str], model: str ="text-embedding-ada-002") -> Opt
             raise ValueError("No data returned")
 
     except Exception as e:
-        logger.warning("Error:", e)
+        logger.warning("Error: %s", e)
         return None
 
 def save_vector(vectors: List[List[float]]) -> None:
@@ -42,7 +42,7 @@ def save_vector(vectors: List[List[float]]) -> None:
         writer = csv.writer(file)
         for vector in vectors:
             writer.writerow(vector)
-    logger.info("Vectors have been written to %s." % csv_file)
+    logger.info("Vectors have been written to %s" % csv_file)
 
 if __name__ == "__main__":
     get_key()
